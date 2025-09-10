@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo-container">
+                    <img src = "images/navlogo.jpg"class = "logo">
+                    <div class="logo-text">ditya Raj</div>
+                </div>
+                <div class="nav-items">
+                    <div><a href="#page-head">Project</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#contactme">Contact Me</a></div>
+                </div>
+            </div>
+        
+            <div class="hero-section">
+             <div class="absolute faded-text">Aditya Raj</div>
+
+             <div class="hero-section-right">
+                <!-- <div class="absolute icons icon-dots">
+                    <img src="images/dots.png" alt=""/>
+                </div> -->
+                <!-- <div class="absolute icons icon-cube">
+                    <img src="images/cube.png" alt=""/>
+                </div> -->
+                <!-- <div class="absolute icons icon-circle">
+                    <img src="images/circle.png" alt=""/>
+                </div> -->
+                <!-- <div class="absolute icons icon-zigzak">
+                    <img src="images/zigzags.png" alt=""/>
+                </div> -->
+                <!-- <div class="absolute icons icon-plus">
+                    <img src="images/plus.png" alt=""/>
+                </div> -->
+                <div class="user-image">
+                    <img src="images/user.jpg" alt=""/>
+                </div>
+             </div>
+
+             <div class="hero-section-left">
+                <div class="hero-section-heading">Hi! Aditya</div>
+                <div class="hero-section-heading hero-section-sub-heading">
+                    I am a <span class="role"></span>
+                </div>
+                <div class="hero-section-description">
+                    I'm a software developer and here is my portfolio website. Here you'll
+                    learn about my journey as a software developer.
+                </div>
+                <a class="btn-pink" id="btn" href="#contactme">Contact Me</a>
+             </div>
+
+            </div>
+        </div>
+        <div class="project-section">
+            <h2 class="page-header" id="page-head">Projects</h2>
+            <div class="project-container" id="contain">
+                <div class="project-card" id="project1">
+                    <div class="project-number project-number-right">01</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skill-container">
+                            <img class="project-skill" src="./icons/HTML.png" alt=""/>
+                            <img class="project-skill" src="./icons/CSS.png" alt=""/>
+                            <img class="project-skill" src="./icons/Javascript.svg" alt=""/>
+                        </div>
+                        <h2 class="project-heading">E-Commerce Clone</h2>
+                        <p class="project-subHeading">Developed an e-commerce website clone using
+                        HTML, CSS, and JavaScript with features like product display, cart,
+                        and responsive design.
+                        </p>
+                        <div class="btn-grp">
+                            <a class="btn-pink btn-project" 
+                            href="https://github.com/devwithaditya/e-commerce-website-clone/blob/main/README.md" target="_blank">Read More</a>
+                            <a href="https://github.com/devwithaditya/e-commerce-website-clone" target="_blank">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="javascript:void(0)" onclick="copyLink(this)" data-link="https://github.com/devwithaditya/e-commerce-website-clone">
+                            <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="project-card" id="project2">
+                    <div class="project-number project-number-left">02</div>
+                    <div class="project-content project-content-right">
+                        <div class="project-skill-container">
+                            <img class="project-skill" src="./icons/HTML.png" alt=""/>
+                            <img class="project-skill" src="./icons/CSS.png" alt=""/>
+                            <img class="project-skill" src="./icons/Javascript.svg" alt=""/>
+                        </div>
+                        <h2 class="project-heading">Portfolio</h2>
+                        <p class="project-subHeading">Developed a responsive portfolio website to highlight my work and technical expertise
+                        </p>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                            <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="project-card" id="project3">
+                    <div class="project-number project-number-right">03</div>
+                    <div class="project-content project-content-left">
+                        <div class="project-skill-container">
+                            <img class="project-skill" src="./icons/HTML.png" alt=""/>
+                            <img class="project-skill" src="./icons/CSS.png" alt=""/>
+                            <img class="project-skill" src="./icons/Javascript.svg" alt=""/>
+                            <img class="project-skill" src="./icons/Tailwind.png" alt=""/>
+                            <img class="project-skill" src="./icons/Vercel.svgS" alt=""/>
+                        </div>
+                        <h2 class="project-heading">Coming Soon..</h2>
+                        <p class="project-subHeading">Nothing to show!
+                        </p>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                            <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="project-card" id="project4">
+                    <div class="project-number project-number-left">04</div>
+                    <div class="project-content project-content-right">
+                        <div class="project-skill-container">
+                            <img class="project-skill" src="./icons/Tailwind.png" alt=""/>
+                            <img class="project-skill" src="./icons/Vercel.svgS" alt=""/>
+                            <img class="project-skill" src="./icons/NextJsCircle.png" alt=""/>
+                        </div>
+                        <h2 class="project-heading">Coming Soon..</h2>
+                        <p class="project-subHeading">Nothing to show!
+                        </p>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                            <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="skills" class=" container skills-container">
+            <div class="skill-fade-text">Skills</div>
+            <div class="skill-container-left">
+                <h2 class="skill-heading">
+                    <span class="caps">M</span>e and
+                 <br/>
+                 MyTech Stack
+                </h2>
+                <div class="skill-subHeading">
+                    <p>
+                        Hi Everyone My name is Aditya Raj I am a Frontend Developer,
+                        Currently i'm pursuing my bachelor of technology in IT i'm in my 3rd year
+                    </p>
+                </div>
+            </div>
+            <div class="skill-container-right">
+                <img src="./images/blob vector.png" class="blob-style" alt=""/>
+
+                <img src="./icons/HTML.png" class="skills-logo"/> 
+                <img src="./icons/CSS.png" class="skills-logo"/> 
+                <img src="./icons/Javascript.svg" class="skills-logo"/> 
+                <img src="./icons/Git.svg" class="skills-logo"/> 
+                <img src="./icons/Github.svg" class="skills-logo"/> 
+                <img src="./icons/cpp.png" class="skills-logo"/> 
+                <img src="./icons/python.png" class="skills-logo"/> 
+                <img src="./icons/NodeJs.svg" class="skills-logo"/> 
+
+            </div>
+        </div>
+        <div class="contactus-form-container">
+            <div class="container" id="contactme">
+                <h1 class="contactus-heading">Contact Me</h1>
+                <h3 class="contactus-sub-heading">
+                Questions,thoughts, or just want to say hello!
+                </h3>
+                <div class="contact-us-form-container">
+                    <form action="" id="contact-form">
+                        <div class="formfield-container">
+                            <input class="formfield" type="text" name="name" id="" placeholder="Enter your name">
+                            <input class="formfield" type="email" name="email" id="" placeholder="Enter your email address">
+                            <input class="formfield" type="text" name="subject" id="" placeholder="Enter your subject">
+                            <textarea name="message" id="" cols="30" rows="10" 
+                            class="formfield formfield-textarea" placeholder="Enter your message"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn-pink" id="submit-btn">
+                                Send Message <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-wrapper">
+                    <div class="link-wrapper">
+                        <div>
+                            <a href="#page-head">Projects</a>
+                        </div>
+
+                        <div>
+                            <a href="#skills">Skills</a>
+                        </div>
+
+                        <div>
+                            <a href="#contactme">Contact Me</a>
+                        </div>
+
+                    </div>
+                    <div class="icon-wrapper icons">
+                        <a href="https://www.linkedin.com/in/codewithaditya/" target="_blank">
+                          <i title="LinkedInLink" class="fa-brands fa-linkedin icon"></i>
+                        </a>
+                        <a href="https://www.instagram.com/im.aditya_gupta?igsh=bnF4bG4wbHR3dXRn" target="_blank">
+                          <i title="InstagramLink" class="fa-brands fa-instagram icon"></i>
+                        </a>
+                        <a href="https://github.com/devwithaditya" target="_blank">
+                          <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                        </a>
+
+                        
+                        
+
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+<script>
+    var typeData = new Typed(".role",{
+        strings:[
+        "Full Stack Developer",
+        "Web Developer",
+        "UI-UX Designer",
+        "Backend Developer",
+        "Coder",
+        ],
+        loop: true,
+        typeSpeed:100,
+        backSpeed:80,
+        backDelay:100,
+    });
+</script>
+
+<script>
+const scriptURL = "https://script.google.com/macros/s/AKfycbyJmZ8kdhqD4g90-W_Azs-43XvjU2piuKjIK4nYLb3xsbr5bK71FAdTGafT5SgMIM4SFg/exec";
+
+const form = document.getElementById("contact-form");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  // Show "sending" state
+  const btn = document.getElementById("submit-btn");
+  btn.innerHTML = "Sending... <i class='fa-solid fa-spinner fa-spin'></i>";
+  btn.disabled = true;
+
+  fetch(scriptURL, {
+    method: "POST",
+    body: new FormData(form)
+  })
+  .then(res => {
+    alert("✅ Message sent successfully!");
+    form.reset();
+  })
+  .catch(err => alert("❌ Error: " + err.message))
+  .finally(() => {
+    // Reset button state
+    btn.innerHTML = "Send Message <i class='fa-solid fa-paper-plane'></i>";
+    btn.disabled = false;
+  });
+});
+
+</script>
+
+<script>
+function copyLink(element) {
+  const link = element.getAttribute("data-link");
+
+  // Copy to clipboard
+  navigator.clipboard.writeText(link).then(() => {
+    alert("Link copied: " + link);
+  }).catch(err => {
+    alert("Failed to copy: " + err);
+  });
+}
+</script>
+</body>
+</html>
